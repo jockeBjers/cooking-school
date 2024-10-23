@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica, sans-serif, Arial;
+    height: 100vh;
+    width:100%;
+    background-color: rgb(230, 229, 229);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, rgb(211, 210, 210)25%,  rgb(230, 229, 229)60%);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#header-left{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;    
+}
+header h1 {
+    font-size: 50px;
+    color: rgb(255, 102, 0);
+    letter-spacing: 4px;
+}
+
+.page-nav {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+}
+
+.page-links {
+    flex: 1 1 140px;
+    
+   /* font-size: 36px;  */
+    text-align: center;
+    text-decoration-line: none;
+    transition: transform .2s;
+}
+
+
+.page-links {
+    font-size: 36px;
+    text-decoration-line: none;
+    transition: transform .2s;
+}
+
+.page-links:link {
+    color: rgb(148, 148, 148);
+    
+}
+
+.page-links:visited {
+    color: rgb(148, 148, 148);
+}
+
+.page-links:hover {
+    transform: scale(1.15);
+    color: rgb(255, 102, 0);
+    text-shadow: rgb(255, 102, 0) 1px 0 10px;
+}
+
+.page-links:active {
+    color: rgb(255, 102, 0);
+}
+
+.strong-link {
+    font-size: 45px;
+    color: rgb(255, 102, 0);
+}
+
+/* INDEX */
+#main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
