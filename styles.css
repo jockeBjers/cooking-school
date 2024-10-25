@@ -9,6 +9,7 @@ html {
 }
 
 body {
+
     font-family: Helvetica, sans-serif, Arial;
     height: 100vh;
     width: 100%;
@@ -53,7 +54,7 @@ header h1 {
 .page-links {
     min-width: 180px;
     flex: 1 1 140px;
-    border: 3px dashed white;
+    border: 4px dashed white;
     text-align: center;
     font-size: 30px;
     padding: 5px;
@@ -87,6 +88,7 @@ header h1 {
     background-color: white;
 
 }
+
 
 /* INDEX PAGE */
 
@@ -187,9 +189,11 @@ header h1 {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    background-color: rgb(43, 43, 43, 0.7);
+    background-color: rgba(232, 25, 25, 0.8);
     padding: 40px;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     box-shadow: rgb(255, 235, 121) 1px 0 10px;
 }
 
@@ -200,7 +204,7 @@ header h1 {
 .quote-author {
     font-weight: 600;
     text-align: end;
-    color: rgb(235, 235, 235);
+    color: rgb(85, 85, 85);
 }
 
 /* FOOTER */
@@ -213,7 +217,7 @@ footer {
     align-items: center;
     background-color: rgb(248, 25, 25);
     width: 100%;
-    padding:20px;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -222,7 +226,8 @@ footer {
     width: 100%;
     border: 4px, dashed, rgb(255, 255, 255);
 }
-#footer-nav{
+
+#footer-nav {
     justify-content: center;
     width: 400px;
 }
@@ -239,6 +244,60 @@ footer {
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap:10px;
-    padding:10px;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* MEDIA QUERY SECTION */
+
+@media all and (max-width: 800px) {
+
+    .page-nav {
+        gap: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        width: 100%;
+
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    header {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .page-links {
+        flex: 1 1 20px;
+        border: none;
+        width: 100%;
+    }
+
+    #page-links-active {
+        display: flex;
+        justify-content: center;
+        flex: 1 1 20px;
+        border: none;
+        width: 100%;
+    }
+
+    #back-to-top {
+        flex: 1 1 20px;
+        border: 4px dashed white;
+    }
+
+}
+
+
+@media all and (max-width: 600px) {
+    .inner-box-quotes {
+        border-radius: 0px;
+    }
+
+
 }
