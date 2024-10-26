@@ -1,0 +1,47 @@
+#course-page {
+    height: 100vh;
+    background-image:
+        linear-gradient(to right, #fff3e0c4, transparent 100%),   
+        url('../images/pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    background-color: white;
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #FF7043;
+    color: #4E342E;
+}
+.first-td:hover{
+    cursor: pointer;
+    background-color:  #e4592f;
+}
+
+tr:hover {
+    background-color: #FFF3E0;
+}
+
+.first-td{
+    background-color: #FF7043;
+}
+
