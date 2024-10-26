@@ -87,12 +87,14 @@ header h1 {
 @keyframes bounce {
 
 
-    0%, 100% {
+    0%,
+    100% {
         transform: translateY(0);
-      }
-      50% {
+    }
+
+    50% {
         transform: translateY(-5px);
-      }
+    }
 }
 
 /* INDEX PAGE */
@@ -125,7 +127,7 @@ header h1 {
 
     background-image:
         url('images/spices.jpg');
-    height: 1000px;
+    height: 800px;
 }
 
 /* content box */
@@ -138,6 +140,27 @@ header h1 {
     background-color: #FFF3E0;
     font-size: 30px;
     width: 100%;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    gap: 20px;
+}
+
+#about h2 {
+    color: #FF7043;
+    background-color: #4E342E;
+    width: 100%;
+    text-align: center;
+}
+
+#about p {
+    padding: 0px 20%;
 }
 
 #news-box {
@@ -181,13 +204,21 @@ header h1 {
 
 /* "floating quote boxes" */
 
+#parallax-second h2 {
+    margin-top: 40px;
+    font-size: 80px;
+    color: #FF7043;
+    text-align: center;
+    background-color: #4e342ed5;
+}
+
 .inner-box {
-    height: 100%;
+    margin: 200px 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
@@ -197,7 +228,7 @@ header h1 {
     font-size: 20px;
     text-align: center;
     color: #4E342E;
-    background-color:  #FFF3E0; 
+    background-color: #FFF3E0;
     padding: 40px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -241,7 +272,7 @@ footer .page-links {
 #footer-right {
     flex: 0 1 400px;
     width: 100%;
-    height: 100%;   
+    height: 100%;
     color: #4E342E;
     padding-left: 20px;
     display: flex;
@@ -277,6 +308,16 @@ footer .page-links {
         width: 100%;
 
     }
+
+    #parallax-second h2 {
+        
+        font-size: 50px;
+      
+    }
+    
+.inner-box {
+    margin:20px;
+}
 
 
     header,
