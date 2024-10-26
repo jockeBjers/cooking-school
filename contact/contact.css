@@ -8,18 +8,15 @@
     background-size: cover;
     color: #4E342E;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-
 
 }
 
 .container {
     background-color: #FFF3E0;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 40px;
     max-width: 600px;
-    height: 70%;
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +30,7 @@
 .container h2 {
     align-self: center;
     margin-top: 40px;
-    margin-bottom: 50px    ;
+    margin-bottom: 50px;
     font-size: 40px;
     color: #FF7043;
 }
@@ -43,6 +40,16 @@
     color: #FF7043;
 }
 
+.icon-container {
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+}
+
+.icon-container .page-links {
+    font-size: 35px;
+}
+
 
 @media all and (max-width: 900px) {
 
@@ -50,14 +57,18 @@
         width: 80%;
     }
 
+    .container h2 {
+        align-self: center;
+    }
 }
 
 @media all and (max-width: 600px) {
     #contact-page {
-        background:#FFF3E0;
+        background: #FFF3E0;
     }
 
     .container {
+        height: 100%;
         width: 100%;
         border-radius: 0px;
     }
