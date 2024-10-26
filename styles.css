@@ -117,6 +117,12 @@ header h1 {
     width: 100%;
 }
 
+#parallax-intro {
+    background-image:
+        url('images/restaurant1.jpg');
+    height: 200px;
+}
+
 #parallax-first {
     background-image:
         url('images/restaurant1.jpg');
@@ -148,7 +154,6 @@ header h1 {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 0px;
     gap: 20px;
 }
 
@@ -156,6 +161,7 @@ header h1 {
     color: #FF7043;
     background-color: #4E342E;
     width: 100%;
+    padding:10px;
     text-align: center;
 }
 
@@ -310,15 +316,18 @@ footer .page-links {
     }
 
     #parallax-second h2 {
-        
-        font-size: 50px;
-      
-    }
-    
-.inner-box {
-    margin:20px;
-}
 
+        font-size: 50px;
+
+    }
+    .inner-box
+    {
+        margin: 20px 0px;
+    }
+
+    #about p {
+        padding: 0px 10%;
+    }
 
     header,
     footer {
