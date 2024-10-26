@@ -30,18 +30,53 @@
 
         <section class="sign-up-container">
             <h2>Skriv in dig</h2>
-            <form action="../index.html" method="post" class="sign-up-form">
+            <form action="./sign-up-confirmation.html" method="post" class="sign-up-form">
 
-                <div class="names">
+                <section class="names">
+                    <h3>Namn</h3>
                     <label for="first-name">Förnamn:</label>
-                    <input type="text" name="fname" id="first-name" placeholder="Förnamn..." required>
+                    <input type="text" name="first-name" id="first-name" placeholder="Förnamn..." required>
 
 
                     <label for="last-name">Efternamn:</label>
-                    <input type="text" name="fname" id="last-name" placeholder="Efternamn..." required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Efternamn..." required>
 
-                </div>
+                </section>
 
+                <section class="contacts">
+
+                    <h3>Kontaktuppgifter</h3>
+
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefonnummer..." required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email..." required>
+
+                </section>
+
+                <section class="courses">
+
+                    <h3>Välj Kurs</h3>
+
+                    <label for="course">Kurs:</label>
+                    <select name="course" id="course" required>
+                        <option value="" disabled selected>Välj en kurs...</option>
+                        <option value="italian">Italiensk matlagning</option>
+                        <option value="pizza">Pizzabakning</option>
+                        <option value="mexican">Mexikansk matlagning</option>
+                        <option value="baking">Bröd och surdeg</option>
+                        <option value="beverage">Vin och dryck</option>
+                        <option value="coffee">Kaffe och barista</option>
+                        <option value="Thai">Thaimatlagning</option>
+                    </select>
+                </section>
+
+                <section class="courses">
+                    <h2>Övrig information</h2>
+                    <label for="general-info">Övrig information</label>
+                    <textarea id="general-info" name="general-info" placeholder="Allergier, önskemål m.m..."></textarea>
+                </section>
                 <input type="submit" value="Skicka in">
             </form>
         </section>
@@ -56,6 +91,7 @@
         <nav class="page-nav" id="footer-nav">
             <a class="page-links" href="../index.html">Till startsidan</a>
         </nav>
+
         <div id="footer-right">
             <p class="footer-text"><strong>Kontakt</strong></p>
             <p class="footer-text"><strong>Email: </strong> joakim.bjerselius@hotmail.com</p>
