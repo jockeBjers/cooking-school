@@ -154,7 +154,10 @@ input[type=submit] {
         width: 80%;
         background-color: #fff3e0e3;
     }
-
+    #sign-up-confirmation{
+        margin:0px;
+        width:100%;
+    }
 
 }
 
