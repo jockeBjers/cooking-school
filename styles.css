@@ -40,6 +40,36 @@ header h1 {
     letter-spacing: 4px;
 }
 
+.frying-pan {
+    width: 150px;
+}
+
+.frying-pan:hover {
+    animation: horizontal-shaking 0.5s ease-in-out infinite;
+}
+
+@keyframes horizontal-shaking {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .page-nav {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +85,7 @@ header h1 {
     text-align: center;
     font-size: 30px;
     text-decoration-line: none;
-    transition: transform .2s, background-color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 
 .page-links:link {
@@ -69,7 +99,6 @@ header h1 {
 
 .page-links:hover,
 #page-links-active:hover {
-    transform: scale(1.05);
 
     animation: bounce 0.3s ease-in-out;
 }
@@ -108,7 +137,7 @@ header h1 {
 }
 
 .parallax {
-    
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,7 +173,7 @@ header h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    color: #4E342E;
+    color: #4e342e;
     background-color: #FFF3E0;
     font-size: 30px;
     width: 100%;
@@ -162,8 +191,8 @@ header h1 {
 }
 
 #about h2 {
-    color: #FF7043;
-    font-size: 70px;    
+    color: rgb(255, 112, 67);
+    font-size: 70px;
     background-color: #4e342ee8;
     width: 100%;
     padding: 10px;
@@ -322,6 +351,13 @@ footer .page-links {
 
     }
 
+    .page-links:hover,
+    #page-links-active:hover {
+        transform: scale(1.00);
+
+        animation: none;
+    }
+
     #parallax-second h2 {
 
         font-size: 50px;
@@ -331,10 +367,10 @@ footer .page-links {
     .inner-box {
         margin: 20px 0px;
     }
-    
-#about{
-    width:100%;
-}
+
+    #about {
+        width: 100%;
+    }
 
     #about p {
         padding: 15px 5%;
@@ -401,6 +437,23 @@ footer .page-links {
     .inner-box-quotes {
         border-radius: 0px;
     }
+
+    .parallax {
+        background-attachment: initial;
+    }
+
+    #parallax-intro {
+        background: #FFF3E0;
+    }
+
+    #about {
+        margin-top: 40px;
+    }
+
+    #about h2 {
+        background-color: #4e342e;
+    }
+
 
 
 }
