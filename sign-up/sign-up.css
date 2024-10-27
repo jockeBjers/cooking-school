@@ -58,7 +58,7 @@
     justify-content: center;
     margin: 10px;
     font-weight: bold;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 h2,
@@ -83,9 +83,9 @@ select {
     box-sizing: border-box;
 }
 
-textarea{
-    width:100%;
-    height:100px;
+textarea {
+    width: 100%;
+    height: 100px;
     resize: vertical;
 }
 
@@ -105,23 +105,23 @@ input[type=submit] {
 
 /* CONFIRMATION */
 
-#sign-up-confirmation{
+#sign-up-confirmation {
     background-color: #fff3e0;
     display: flex;
-    gap:20px;
+    gap: 20px;
     flex-direction: column;
-    margin:40px;
-    padding:20px;
-    width:400px;
+    margin: 40px;
+    padding: 20px;
+    width: 400px;
     border: 1px solid #4E342E;
 }
 
-#confirmation-link{
-    display:flex;
+#confirmation-link {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding:10px;
-    margin:10px;
+    padding: 10px;
+    margin: 10px;
     background-color: #ffffff;
 
 }
@@ -144,20 +144,27 @@ input[type=submit] {
 
 
 }
+
 @media all and (max-width: 900px) {
     .sign-up-container {
         border-radius: 0px;
         width: 100%;
-        padding:0px;
+        padding: 0px;
         padding: 40px 0px;
         margin: 0px;
         width: 80%;
-        background-color: #fff3e0e3;
     }
-    #sign-up-confirmation{
-        margin:0px;
-        width:100%;
+
+    #sign-up-confirmation {
+        margin: 0px;
+        width: 100%;
     }
+
+    
+        .sign-up-container:hover {
+            background-color: #fff3e0e3 ;
+    
+        }
 
 }
 
@@ -165,12 +172,12 @@ input[type=submit] {
     .sign-up-container {
         border-radius: 0px;
         width: 100%;
-        padding:0px;
+        padding: 0px;
         padding: 40px 0px;
         margin: 0px;
         width: 100%;
-        background-color: #fff3e0e3;
     }
+
 
 
 }
