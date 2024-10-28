@@ -1,7 +1,7 @@
 #course-page {
     background-image:
-    linear-gradient(to left, #fff3e0, transparent),
-    url('../images/salad.jpg');
+        linear-gradient(to left, #fff3e0, transparent),
+        url('../images/salad.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -51,10 +51,10 @@ tr:hover {
 }
 
 .first-td a {
-    color: #FF7043; 
-    font-weight: bold; 
+    color: #FF7043;
+    font-weight: bold;
     text-decoration: none;
-    display: block; 
+    display: block;
     background-color: #4E342E;
 }
 
@@ -64,9 +64,9 @@ tr:hover {
 
 /* ITALIAN CLASS */
 
-#italian-page{
+#italian-page {
     background-image:
-    url('../images/italy.jpg');
+        url('../images/italy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -74,39 +74,42 @@ tr:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
+
 }
 
-#italian-info-container{
+#italian-info-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width: 50%;
     border-radius: 30px;
     background: #fff3e0;
-    padding:40px;
-    margin:40px;
-    gap:20px;
+    padding: 40px;
+    margin: 40px;
+    gap: 20px;
 
 }
-h2, h3{
-    color:#FF7043;
+
+h2,
+h3 {
+    color: #FF7043;
 }
 
-p{
-    color:#4E342E;
+p {
+    color: #4E342E;
 }
 
 .image-box {
-    display: flex; 
+    display: flex;
     border-radius: 10px;
-    width:90%;
+    width: 90%;
 }
 
 .image-box img {
-    width: 50%; 
+    width: 50%;
 }
 
 @media all and (max-width: 800px) {
@@ -122,13 +125,19 @@ p{
         margin-bottom: 0px;
     }
 
-    #italian-info-container{
-        width:100%;
-        margin:0px;
-        border-radius: 0px;
-        padding:10px;
+
+    #italian-page {
+        background: #FFF3E0;
     }
-    .footer-text{
+
+    #italian-info-container {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .footer-text {
         color: #FFF3E0;
     }
 }
