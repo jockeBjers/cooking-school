@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff3e0bb;
+    background-color: #fff3e0e8;
     border-radius: 20px;
     padding: 50px;
     gap: 20px;
@@ -26,11 +26,6 @@
     min-width: 240px;
     margin: 100px;
     transition: background-color 0.9s ease;
-
-}
-
-.sign-up-container:hover {
-    background-color: #fff3e0;
 
 }
 

@@ -52,6 +52,72 @@ tr:hover {
     background-color: #4E342E;
 }
 
+.first-td a {
+    color: #FF7043; 
+    font-weight: bold; 
+    text-decoration: none;
+    display: block; 
+    background-color: #4E342E;
+}
+
+
+.first-td:hover a {
+    background-color: #30221f;
+}
+
+
+
+/* ITALIAN CLASS */
+
+
+#italian-page{
+    background-image:
+    url('../images/italy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#italian-info-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-radius: 30px;
+    background: #fff3e0;
+    padding:40px;
+    margin:40px;
+    gap:20px;
+
+}
+h1, h2{
+    color:#FF7043;
+}
+
+p{
+    color:#4E342E;
+}
+
+.image-container {
+    display: flex; 
+    border-radius: 10px;
+    width:90%;
+}
+
+.image-container img {
+    width: 50%; 
+}
+
+
+
+
+
 
 @media all and (max-width: 800px) {
     #course-page {
@@ -64,6 +130,15 @@ tr:hover {
         height: 100%;
         margin-top: 40px;
         margin-bottom: 0px;
+    }
+
+    #italian-info-container{
+        width:100%;
+        margin:0px;
+        border-radius: 0px;
+    }
+    .footer-text{
+        color: #FFF3E0;
     }
 }
 
