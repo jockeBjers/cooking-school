@@ -453,7 +453,9 @@ footer .page-links {
     #about h2 {
         background-color: #4e342e;
     }
-
+    header{
+        gap:20px;
+    }
 
 
 }
