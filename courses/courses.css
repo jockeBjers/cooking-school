@@ -1,4 +1,5 @@
 #course-page {
+    height: 80vh;
     background-image:
         linear-gradient(to left, #fff3e0, transparent),
         url('../images/salad.jpg');
@@ -86,7 +87,7 @@ tr:hover {
     align-items: center;
     width: 50%;
     border-radius: 30px;
-    background: #fff3e0;
+    background: #fff3e0e3;
     padding: 40px;
     margin: 40px;
     gap: 20px;
@@ -125,8 +126,10 @@ p {
         margin-bottom: 0px;
     }
 
-
     #italian-page {
+        background: #FFF3E0;
+    }
+    body{
         background: #FFF3E0;
     }
 
@@ -134,7 +137,6 @@ p {
         width: 100%;
         margin: 0px;
         border-radius: 0px;
-        padding: 10px;
     }
 
     .footer-text {
@@ -142,7 +144,7 @@ p {
     }
 }
 
-@media (max-width: 480px) {
+@media  all and (max-width: 480px) {
 
     th {
         display: none;
@@ -152,5 +154,4 @@ p {
         display: flex;
         padding: 10px;
     }
-
 }
