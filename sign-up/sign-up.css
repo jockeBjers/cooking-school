@@ -84,7 +84,6 @@ textarea {
     resize: vertical;
 }
 
-
 input[type=submit] {
     color: #4E342E;
     background-color: #FF7043;
@@ -96,7 +95,6 @@ input[type=submit] {
     width: 80%;
     border-radius: 10px;
 }
-
 
 /* CONFIRMATION */
 
@@ -121,11 +119,6 @@ input[type=submit] {
 
 }
 
-
-
-
-
-
 /* MEDIA QUERIES */
 
 @media all and (max-width: 1250px) {
@@ -136,8 +129,6 @@ input[type=submit] {
         width: 60%;
         background-color: #fff3e0e3;
     }
-
-
 }
 
 @media all and (max-width: 900px) {
@@ -155,11 +146,10 @@ input[type=submit] {
         width: 100%;
     }
 
-    
-        .sign-up-container:hover {
-            background-color: #fff3e0e3 ;
-    
-        }
+    .sign-up-container:hover {
+        background-color: #fff3e0e3;
+
+    }
 
 }
 
@@ -172,7 +162,5 @@ input[type=submit] {
         margin: 0px;
         width: 100%;
     }
-
-
 
 }
