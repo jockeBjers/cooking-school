@@ -1,5 +1,4 @@
 #course-page {
-    height: 80vh;
     background-image:
         linear-gradient(to left, #fff3e0, transparent),
         url('../images/salad.jpg');
@@ -91,7 +90,14 @@ tr:hover {
     padding: 40px;
     margin: 40px;
     gap: 20px;
+    color: #4E342E;
+}
 
+.week-list {
+    list-style-type: none; 
+}
+.week-list li {
+    margin-bottom: 10px; 
 }
 
 h2,
@@ -116,7 +122,6 @@ p {
 @media all and (max-width: 800px) {
     #course-page {
         background: #FFF3E0;
-        height: fit-content;
     }
 
     table {

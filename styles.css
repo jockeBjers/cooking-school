@@ -32,8 +32,10 @@ body {
 }
 
 /* HEADER */
+
 header {
     background-color: #FFF3E0;
+    background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(252,240,215,1) 50%);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -434,7 +436,7 @@ footer {
 
     header .page-links:link,
     footer .page-links:link {
-        color: #FFF3E0;
+        color: rgb(255, 243, 224);
 
     }
 
